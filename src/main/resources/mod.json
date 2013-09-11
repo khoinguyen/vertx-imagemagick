@@ -1,5 +1,5 @@
 {
-  "main":"com.kafeblog.imagemagick.ImageMagickVerticle",
+  "main":"com.kafeblog.vertx.imagemagick.ImageMagickVerticle",
 
   "description":"ImageMagick module for Vertx",
   "licenses": ["The Apache Software License Version 2.0"],

@@ -1,4 +1,4 @@
-package com.kafeblog.imagemagick;
+package com.kafeblog.vertx.imagemagick;
 
 import java.io.*;
 
