@@ -6,7 +6,7 @@
   <groupId>com.kafeblog</groupId>
   <artifactId>image-magick</artifactId>
   <packaging>jar</packaging>
-  <version>0.1</version>
+  <version>0.1-alpha</version>
   <name>Project - image-magick</name>
   <url>http://maven.apache.org</url>
 
