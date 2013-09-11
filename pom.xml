@@ -6,15 +6,33 @@
   <groupId>com.kafeblog.vertx</groupId>
   <artifactId>image-magick</artifactId>
   <packaging>jar</packaging>
-  <version>0.1-alpha</version>
+  <version>0.1-alpha-SNAPSHOT</version>
   <name>Vert.x ImageMagick module</name>
   <url>https://github.com/khoinguyen/vertx-imagemagick</url>
-
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
   <parent>
      <groupId>org.sonatype.oss</groupId>
      <artifactId>oss-parent</artifactId>
      <version>7</version>
   </parent>
+  <scm>
+    <connection>scm:git:git@github.com:khoinguyen/vertx-imagemagick.git</connection>
+    <developerConnection>scm:git:git@github.com:khoinguyen/vertx-imagemagick.git</developerConnection>
+    <url>https://github.com/khoinguyen/vertx-imagemagick</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>khoinguyen</id>
+      <name>Khoi Nguyen</name>
+      <email>khoi.nqq@gmail.com</email>
+    </developer>
+  </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -44,12 +62,7 @@
     <maven.dependency.plugin.version>2.7</maven.dependency.plugin.version>
   </properties>
 
-  <repositories>
-    <repository>
-      <id>sonatype-nexus-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </repository>
-  </repositories>
+
 
   <dependencies>
     <!--Vertx provided dependencies-->
