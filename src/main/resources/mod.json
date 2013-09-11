@@ -7,5 +7,5 @@
 
   // Optional fields
   "keywords": ["image", "imagemagick"],
-  "homepage": "http://kafeblog.com/blog/vert-x-imagemagick-module/"
+  "homepage": "https://github.com/khoinguyen/vertx-imagemagick"
 }
