@@ -25,8 +25,9 @@ public class ImageMagickVerticle extends Verticle {
         message.reply("ok", new Handler<Message<Buffer>>() {
           @Override
           public void handle(Message<Buffer> message) {
-            Buffer buffer = message.body();
 
+            Buffer buffer = message.body();
+            container.logger().info("Receive buffer for convert with size: " + buffer.length());
             if (buffer.length() <= 0) return;
 
             ByteArrayInputStream  is = new ByteArrayInputStream(buffer.getBytes());
@@ -55,7 +56,7 @@ public class ImageMagickVerticle extends Verticle {
               }
             }
 
-            op.addImage("jpg:-");
+            op.addImage("-");
 
             
             try {
