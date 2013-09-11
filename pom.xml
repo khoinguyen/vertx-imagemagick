@@ -5,7 +5,7 @@
   <groupId>com.kafeblog.vertx</groupId>
   <artifactId>image-magick</artifactId>
   <packaging>jar</packaging>
-  <version>0.1-alpha</version>
+  <version>0.2-alpha-SNAPSHOT</version>
   <name>Vert.x ImageMagick module</name>
   <url>https://github.com/khoinguyen/vertx-imagemagick</url>
   <licenses>
